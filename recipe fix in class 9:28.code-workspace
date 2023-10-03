@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "recipe"
+		},
+		{
+			"path": "recipe-styled"
+		},
+		{
+			"path": "template"
+		},
+		{
+			"path": "wikipedia"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wikipedia"
+	}
+}

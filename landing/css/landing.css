@@ -4,17 +4,31 @@ body{
    background-color: grey;
 }
 header img{
-    align: center;
+    margin: 0 auto;
+    width: 5%;
 }
 h1{
     text-transform: uppercase;
 }
-.Goals{
+.goals{
     margin: 3em 0;
+    text-align: center;
 }
 .menu img{ 
-    margin: 4em;
+    margin: 4em 0;
 }
 img{
     display: block;
+}
+header{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+header, .menu p {
+    text-align: center;
+}
+.details{
+    color:lightblue;
 }

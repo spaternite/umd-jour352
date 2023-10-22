@@ -1,8 +1,38 @@
-
-.information{
-    body{
-        background-color: lightgreen;
+body{
+    background-color: lightgreen;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
-    }
 }
+    img{
+        width: 20%;
+    }
+    .infogram-embed{
+        width:20%
+    }
+    #crime{
+        text-align: center;
+    }
+    .graphic{
+        width:20%
+        display: block;
+    }
+    .info{
+        text-align: left;
+    }
+    .intro{
+        font-size: 35px;
+        color: darkgreen;
+    }
+    h3{
+        font-size: 30px;
+        color: magenta;
+    }
+    h1{
+        font-size: 55px;
+        color: white;
+        style: bold;
+    }
+    h2{
+        color:magenta;
+        font-size: 30px;
+    }

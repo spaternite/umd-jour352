@@ -1,0 +1,46 @@
+.header {
+    background-color: #121212;
+        font-family: inconsolata;
+        text-align: center;
+        font-size: 40px;
+        color: #fcfdfe;
+}
+.intro{
+background-color:#fcfdfe;
+color: #121212;
+font-family: Roboto;
+font-size: 15px;
+text-align: center;
+font-size: 30px;
+}
+.second{
+h1{
+    font-family: inconsolata;
+    font-size: 700 pt;
+}
+@media (max-width: 756px) {
+    h1{
+        font-family: inconsolata;
+        font-size: 700 pt; 
+        margin: 4em;
+    }
+}
+@media (max-width: 576px) {
+    h1{
+        font-family: inconsolata;
+        font-size: 800 pt; 
+        margin: 4em;
+    }
+}
+h2{
+   font-family: inconsolata; 
+   font-size: 700 pt;
+   margin: 1.75em;
+}
+.h3{
+    font-family: inconsolata; 
+    font-size: 700 pt;
+    margin: 1.5em;  
+    color:#fcfdfe;
+    background-color: #121212;
+}

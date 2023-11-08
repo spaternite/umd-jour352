@@ -1,46 +1,134 @@
-.header {
+header {
     background-color: #121212;
-        font-family: inconsolata;
+    font-family: inconsolata;
         text-align: center;
-        font-size: 40px;
+        font-weight: 400;
         color: #fcfdfe;
 }
+.black{
+    background-color: #121212;
+}
+.container{
+    background-color:darkolivegreen;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .intro{
-background-color:#fcfdfe;
+background-color: #ADD8E6;
 color: #121212;
 font-family: Roboto;
 font-size: 15px;
 text-align: center;
-font-size: 30px;
+font-weight: 400;
 }
-.second{
+.subhead{
+    font-family: inconsolata;
+    font-weight: 500;
+}
 h1{
     font-family: inconsolata;
-    font-size: 700 pt;
+    font-weight: 700;
+    font-size: 4em;
+}
+.attribute{
+    text-transform: uppercase;
+    font-family: inconsolata;
+    color: grey;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .85em;
+}
+.second{
+   font-family: Roboto;
+   font-weight: 400;
+   font-size: 15px;
+   padding: 10%;
+   background-color: lightyellow;
 }
 @media (max-width: 756px) {
     h1{
         font-family: inconsolata;
-        font-size: 700 pt; 
-        margin: 4em;
+        font-weight: 700; 
+        font-size: 4em;
     }
 }
 @media (max-width: 576px) {
     h1{
         font-family: inconsolata;
-        font-size: 800 pt; 
-        margin: 4em;
+        font-weight: 800; 
+        font-size: 4em;
     }
 }
 h2{
    font-family: inconsolata; 
-   font-size: 700 pt;
-   margin: 1.75em;
+   font-weight: 700;
+   font-size: 1.75em;
+   /*min-height: 100vh;*/
+   text-transform: uppercase;
 }
-.h3{
+.results{
     font-family: inconsolata; 
-    font-size: 700 pt;
-    margin: 1.5em;  
+    font-weight: 700;
+    font-size: 1.5em;  
     color:#fcfdfe;
-    background-color: #121212;
+    background-color: darkolivegreen;
+    border-width: 5cm;
+/*min-height: 80vh;*/
+}
+h3{
+    font-size: 1.5em;
+    font-family: inconsolata;
+    text-transform: uppercase;
+}
+.footer{
+    text-align: center;
+    background-color: #ADD8E6;
+    font-family: inconsolata;
+    font-size: .85em;
+}
+h4{
+    font-family: roboto;
+    font-size: 1.5em;
+}
+.block{
+    color: #db5461;
+    font-family: inconsolata;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: #ffb6c1;
+}
+.red{
+    background-color: lightyellow;
+    font-family: inconsolata; 
+    font-weight: 700;
+    font-size: 1.75em;
+    /*min-height: 100vh;*/
+    text-transform: uppercase;
+}
+.rtext{
+    background-color: lightyellow;
+    font-family: inconsolata; 
+    font-weight: 700;
+    font-size: 1.75em;
+    /*min-height: 100vh;*/
+}
+.graphic{
+    background-color: #db5461;
+    color: #db6451;
+    padding: 5%;
+}
+.postgraphic{
+    font-family: roboto;
+    background-color: lightyellow;
+}
+.last{
+    font-family: roboto;
+    background-color: lightyellow;
+}
+.end{
+    font-family: roboto;
+    background-color: lightyellow;
+}
+#cool{
+    color: #db5461;
 }

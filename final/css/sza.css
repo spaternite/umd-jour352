@@ -7,7 +7,39 @@ body{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
+    padding: 25px;
 }
-.pics{
+.pix{
     align-content: center;
+}
+@media (max-width: 756px) {
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600; 
+        font-size: 5em;
+    }
+}
+@media (max-width: 576px) {
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 800; 
+        font-size: 6em;
+    }
+}
+h1:hover{
+        color: lime;
+      }
+h1{
+    font-size: 4em;
+}
+.intro{
+    background-color: blue;
+    padding: 25px;
+}
+.early{
+    background-color: blue;
+    padding: 25px;
+}
+h2{
+    color: aqua;
 }

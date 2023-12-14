@@ -3,7 +3,7 @@ h1{
     color:aqua;
 }
 body{
-    background-color: blueviolet;
+    background-color:mediumpurple;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
@@ -42,4 +42,9 @@ h1{
 }
 h2{
     color: aqua;
+}
+.infogram-embed{
+    width: 75%;
+    margin: 0 auto;
+    padding: 3em 0;
 }
